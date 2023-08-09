@@ -74,3 +74,17 @@ python ...
 etc.
 ``` 
 
+# Bonus: Understanding Namespace and Nonlocal Scope in Python
+# Part 1: Namespace Exploration
+1. Create a Python script named `namespace_demo.py`.
+2. Define a global variable `global_var` and assign it a value of your choice.
+3. Create a function named `outer_function` that contains a variable `outer_var`.
+4. Inside `outer_function`, define a nested function named `inner_function` that contains a variable `inner_var`.
+5. Print out the values of `global_var`, `outer_var`, and `inner_var` within their respective scopes.
+
+# Part 2: Nonlocal Scope
+1. Add a new function named `nonlocal_demo` within `namespace_demo.py`.
+2. Inside `nonlocal_demo`, define a variable `outer_count` and set it to 10.
+3. Create a nested function named `inner_increment`, and inside it, define a variable `inner_count` and set it to 5.
+4. Increment both `outer_count` and `inner_count` by 1.
+5. Print the values of `outer_count` and `inner_count` before and after the increment to observe the changes.
