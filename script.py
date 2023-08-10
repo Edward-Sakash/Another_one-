@@ -2,7 +2,7 @@
 
 # script.py
 
-from math_mod import add, subtract, multiply, divide
+from math_mod import add, subtract, multiply, divide # we can use * instead of
 from string_mod import concatenate_strings, create_string_from_list, contains_digit
 
 # Math operations
